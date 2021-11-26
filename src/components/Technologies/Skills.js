@@ -1,14 +1,7 @@
 import { DiTerminal } from "react-icons/di";
 import { SiJava, SiFirebase, SiGit, SiJavascript } from "react-icons/si";
-import { RiFlutterFill } from "react-icons/ri";
 
 export const Skills = [
-  {
-    slug: "flutter",
-    Component: RiFlutterFill,
-    title: "Flutter",
-    Description: () => <>learning Dart & Flutter for mobile development. </>,
-  },
   {
     slug: "java",
     Component: SiJava,
