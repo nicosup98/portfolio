@@ -6,16 +6,10 @@
 
 A portfolio built in React and NextJS. Simple, clean and fast.
 
-**Note: The logo and banner used in the project are my intellectual property. Please refrain from using it anywhere.**
-
-
-
-![App Screenshot](https://i.ibb.co/jRRNMkH/Screenshot-from-2021-10-27-18-45-14.png)
-
   
 ## Demo
 
-[Live Preview](https://www.vipuljha.com)
+[Live Preview](https://portfolio-nicosup98.vercel.app/)
 
 ## Run Project 
 
