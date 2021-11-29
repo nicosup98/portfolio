@@ -19,7 +19,7 @@ const letter = {
     y: 0
   }
 }
-const BackgroundAnimation = (props) => (
+const TextAnimation = (props) => (
   <motion.div 
     variants={setence} 
     initial='hidden'
@@ -39,4 +39,4 @@ const BackgroundAnimation = (props) => (
   </motion.div>
 );
 
-export default BackgroundAnimation;
+export default TextAnimation;
