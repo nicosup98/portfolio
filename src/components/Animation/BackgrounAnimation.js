@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { SiAngular, SiReact, SiVueDotJs } from "react-icons/si";
+import { SiAngular, SiElixir, SiGo, SiReact,SiGit } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const variants = {
@@ -8,31 +8,42 @@ const variants = {
 };
 
 const item = {
-  visible: { opacity: 1, x: 0, },
+  visible: {
+    opacity: 1,
+    x: 0,
+    transition: { when: "afterChildren", duration: 0.5 },
+  },
   hidden: { opacity: 0, x: -100 },
 };
+const icons = [
+  <SiAngular size="40rem" />,
+  <SiReact size="40rem" />,
+  <SiElixir size="40rem" />,
+  <SiGo size="40rem" />,
+  <SiGit size='40rem'/>
+];
 export function BackgroundAnimation() {
-  const [currentIcon, setCurrentIcon] = useState(Math.floor(Math.random() * 3));
-  const Current = (props) => {
-    switch (props.icon) {
-      case 0:
-        return <SiAngular size="40rem" />;
-      case 1:
-        return <SiReact size="40rem" />;
-
-      default:
-        return <SiVueDotJs size="40rem" />;
-    }
+  const [currentIcon, setCurrentIcon] = useState(
+    Math.floor(Math.random() * icons.length)
+  );
+  const Current = ({ icon }) => {
+    return (
+      <React.Fragment>
+        <motion.figure variants={item} transition={{ delay: 0.75 }}>
+          {icons[icon]}
+        </motion.figure>
+      </React.Fragment>
+    );
   };
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIcon(Math.floor(Math.random() * 3));
+      setCurrentIcon(Math.floor(Math.random() * icons.length));
     }, 5000);
     return () => clearInterval(interval);
   });
   return (
     <motion.div variants={variants} initial="hidden" animate="visible">
-      <motion.figure variants={item} transition={{delay:1}}><Current icon={currentIcon}/></motion.figure>
+      <Current icon={currentIcon} />
     </motion.div>
   );
 }
