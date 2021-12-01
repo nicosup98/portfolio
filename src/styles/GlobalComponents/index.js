@@ -26,7 +26,7 @@ export const Section = styled.section`
 `
 
 export const BackgrounAnimationLayout = styled.div`
-  @media ${ props=> props.theme.breakpoints.sm} {
+  @media ${ props=> props.theme.breakpoints.md} {
     display: none
   }
 

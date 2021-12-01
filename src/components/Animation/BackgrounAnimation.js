@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { SiAngular, SiElixir, SiGo, SiReact,SiGit } from "react-icons/si";
+import { SiAngular, SiElixir, SiGo, SiReact, SiGit } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const variants = {
@@ -18,9 +18,9 @@ const item = {
 const icons = [
   <SiAngular size="40rem" />,
   <SiReact size="40rem" />,
-  <SiElixir size="40rem" />,
   <SiGo size="40rem" />,
-  <SiGit size='40rem'/>
+  <SiElixir size="40rem" />,
+  <SiGit size="40rem" />,
 ];
 export function BackgroundAnimation() {
   const [currentIcon, setCurrentIcon] = useState(
@@ -28,11 +28,9 @@ export function BackgroundAnimation() {
   );
   const Current = ({ icon }) => {
     return (
-      <React.Fragment>
-        <motion.figure variants={item} transition={{ delay: 0.75 }}>
-          {icons[icon]}
-        </motion.figure>
-      </React.Fragment>
+      <motion.figure variants={item} transition={{ delay: 0.75 }}>
+        {icons[icon]}
+      </motion.figure>
     );
   };
   useEffect(() => {
