@@ -24,4 +24,6 @@ export const TimeLineData = [
   { year: 2019, text: 'go to full stack with java and angular', },
   { year: 2020, text: 'learn new things like go, python, elixir, etc', },
   { year: 2021, text: 'start working and learning firebase', },
+  { year: 2022, text: 'learning rust to make backend apps and other stuff', },
+
 ];

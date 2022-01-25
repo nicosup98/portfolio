@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { SiAngular, SiElixir, SiGo, SiReact, SiGit } from "react-icons/si";
+import { SiAngular, SiElixir, SiGo, SiReact, SiGit, SiRust } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const variants = {
@@ -19,6 +19,7 @@ const icons = [
   <SiAngular size="40rem" />,
   <SiReact size="40rem" />,
   <SiGo size="40rem" />,
+  <SiRust size="40rem" />,
   <SiElixir size="40rem" />,
   <SiGit size="40rem" />,
 ];
