@@ -16,6 +16,15 @@ export const projects = [
     source: 'https://github.com/nicosup98/react-hooks-test',
     visit: '',
     id: 1,
+  },
+  {
+    title: 'solana anchor test',
+    description: "a simple app to test anchor and solana web 3",
+    image:'images/Screenshot_10.png',
+    tags: ['react', "anchor"],
+    source: 'https://github.com/nicosup98/solana-web3-test',
+    visit: 'https://solana-web3-test.vercel.app/',
+    id: 2,
   }
 ];
 
