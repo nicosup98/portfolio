@@ -3,7 +3,7 @@ export const projects = [
     title:'solid js pokemon page',
     description:'a page to test solid js with pokeapi',
     image:'images/Screenshot_1.png',
-    tags:['nextjs'],
+    tags:['solidjs'],
     source:'https://github.com/nicosup98/solidjs-pokemon-test',
     visit:'https://solidjs-pokemon-test.vercel.app/',
     id:0
@@ -21,10 +21,19 @@ export const projects = [
     title: 'solana anchor test',
     description: "a simple app to test anchor and solana web 3",
     image:'images/Screenshot_10.png',
-    tags: ['react', "anchor"],
+    tags: ['react', "anchor", "rust"],
     source: 'https://github.com/nicosup98/solana-web3-test',
     visit: 'https://solana-web3-test.vercel.app/',
     id: 2,
+  },
+  {
+    title: 'solana pay test',
+    description: "a simple app to test solana pay and solana transactions",
+    image:'images/Screenshot_11.png',
+    tags: ['react'],
+    source: 'https://github.com/nicosup98/solana-pay-test',
+    visit: 'https://solana-pay-test.vercel.app/',
+    id: 3,
   }
 ];
 
