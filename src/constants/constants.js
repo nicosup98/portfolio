@@ -9,12 +9,12 @@ export const projects = [
     id:0
   },
   {
-    title: 'react test',
-    description: "a simple app to test react",
-    image: '',
-    tags: ['react'],
-    source: 'https://github.com/nicosup98/react-hooks-test',
-    visit: '',
+    title: 'near market test',
+    description: "a simple app to test near blockchain and smart contracts",
+    image: 'images/near-market-image.png',
+    tags: ['angular','bootstrap','near-api-js'],
+    source: 'https://github.com/nicosup98/near-market',
+    visit: 'http://near-market-snowy.vercel.app/',
     id: 1,
   },
   {
