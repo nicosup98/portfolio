@@ -6,14 +6,13 @@ import { LeftSection } from './HeroStyles';
 import TextAnimation from '../Animation/TextAnimation';
 
 const Hero = () => (
-  <>
-    <Section row nopadding>
+    <Section row justify_center>
       <LeftSection>
         <SectionTitle main center>
-          Hey there,
+          Hey there
         </SectionTitle>
         <SectionText>
-          <TextAnimation text={'Hey, This is nicolangelo damico. I am an full stack web developer.'} />
+          <TextAnimation text={`I'm Nicolangelo Damico, a full stack web developer.`} />
         </SectionText>
         <Button onClick={(e) => {
           e.preventDefault();
@@ -21,7 +20,6 @@ const Hero = () => (
         }}>My Resume</Button>
       </LeftSection>
     </Section>
-  </>
 );
 
 export default Hero;

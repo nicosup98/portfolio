@@ -1,5 +1,5 @@
 import { DiTerminal } from "react-icons/di";
-import { SiJava, SiFirebase, SiGit, SiJavascript } from "react-icons/si";
+import { SiJava, SiFirebase, SiGit, SiJavascript,SiGo } from "react-icons/si";
 
 export const Skills = [
   {
@@ -17,8 +17,8 @@ export const Skills = [
   {
     slug: 'javascript',
     Component:SiJavascript,
-    title: 'front end',
-    Description: ()=> <>my principal framework is angular but i can code with react and vue also i know typescript and a little of express </>
+    title: 'javascript',
+    Description: ()=> <>my principal framework is angular but i can code with react and svelte also i know typescript and a little of express </>
   },
   {
     slug: "firebase",
@@ -30,6 +30,12 @@ export const Skills = [
     slug: "git",
     Component: SiGit,
     title: "Git",
-    Description: () => <>Git is a tool that I use every day. I use GitHub or bitbucket for pushing my code.</>,
+    Description: () => <>Git is a tool that I use every day. I use GitHub and/or bitbucket</>,
+  },
+  {
+    slug: "go",
+    Component: SiGo,
+    title: "Go",
+    Description: () => <>i use this languaje for backend apis with fiber and gin</>,
   },
 ];

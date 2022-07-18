@@ -15,7 +15,7 @@ export const Boxes = styled.div`
 
   @media ${props => props.theme.breakpoints.sm}{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, 1fr);
     gap: 10px;
     max-width: 500px;
     margin: 24px auto;
@@ -25,20 +25,14 @@ export const Boxes = styled.div`
 export const Box = styled.div`
   background: #212D45;
   border-radius: 12px;
-  height: 144px;
+  height: 100%;
   padding: 24px;
-  @media ${props => props.theme.breakpoints.lg} {
-    height: 210px;
-
-  }
 
   @media ${props => props.theme.breakpoints.md} {
-    height: 135px;
     padding: 16px;
   }
 
   @media ${props => props.theme.breakpoints.sm} {
-    height: 110px;
     padding: 12px;
     
     &:nth-child(2n){
@@ -65,6 +59,27 @@ export const BoxNum = styled.h5`
 }
 `
 
+export const BoxTitle = styled.h3`
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.75);
+  padding-bottom: 1rem;
+  
+
+  @media ${props => props.theme.breakpoints.md}{
+    font-size: 16px;
+    line-height: 20px;
+  };
+
+  @media ${props => props.theme.breakpoints.sm} {
+    font-size: 14px;
+    line-height: 14px;
+  }
+`
+
 export const BoxText = styled.p`
   font-style: normal;
   font-weight: normal;
@@ -72,6 +87,8 @@ export const BoxText = styled.p`
   line-height: 24px;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.75);
+  padding-bottom: 1rem;
+  
 
   @media ${props => props.theme.breakpoints.md}{
     font-size: 16px;

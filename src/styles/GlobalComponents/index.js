@@ -4,30 +4,31 @@ export const Section = styled.section`
   display: ${(props) => props.grid ? "grid" : "flex"};
   flex-direction: ${(props) => props.row ? "row" : "column"};
   padding: ${(props) => props.nopadding ? "0" : "32px 48px 0"} ;
-  margin: 0 auto;
-  max-width: 1040px;
+  margin: 0;
   box-sizing: content-box;
-  position: relative;
   overflow: hidden;
-  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: max-content;
 
   @media ${(props) => props.theme.breakpoints.md} {
-    padding: 24px 48px 0;
+    padding: 2rem;
     flex-direction: column;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: ${(props) => props.nopadding ? "0" : "16px 16px 0"} ;
-    
-
-    width: calc(100vw - 32px);
+    padding: ${(props) => props.nopadding ? "0" : "2rem"} ;
+    width: auto;
     flex-direction: column;
+    justify-content: center;
   }
 `
 
 export const BackgrounAnimationLayout = styled.div`
-  @media ${ props=> props.theme.breakpoints.md} {
-    display: none
+  display: flex;
+  flex-direction: row-reverse;
+  @media ${ props=> props.theme.breakpoints.sm} {
+    display: flex;
+    flex-direction: column;
+
   }
 
 `

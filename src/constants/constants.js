@@ -2,11 +2,28 @@ export const projects = [
   {
     title:'solid js pokemon page',
     description:'a page to test solid js with pokeapi',
-    image:'images/Screenshot_1.png',
+    image:'images/screencapture-solidjs-pokemon-test.png',
     tags:['solidjs'],
     source:'https://github.com/nicosup98/solidjs-pokemon-test',
     visit:'https://solidjs-pokemon-test.vercel.app/',
     id:0
+  },
+  {
+    title: "weather app",
+    description: "svelte app to show weather in your region",
+    image:"images/screencapture-weather-app.png",
+    tags:["svelte","tailwind"],
+    source: "https://github.com/nicosup98/weather-app",
+    visit:"https://weather-app-eight-steel.vercel.app/",
+    id:1
+  },
+  {
+    title: "weather backend",
+    description: "backend api for the weather app",
+    image:"",
+    tags:["go","fiber","fasthttp","redis"],
+    source: "https://github.com/nicosup98/weather-backend",
+    id:2
   },
   {
     title: 'near market test',
@@ -15,16 +32,16 @@ export const projects = [
     tags: ['angular','bootstrap','near-api-js'],
     source: 'https://github.com/nicosup98/near-market',
     visit: 'http://near-market-snowy.vercel.app/',
-    id: 1,
+    id: 3,
   },
   {
     title: 'solana anchor test',
     description: "a simple app to test anchor and solana web 3",
-    image:'images/Screenshot_10.png',
-    tags: ['react', "anchor", "rust"],
+    image:'images/screencapture-solana-web3-test.png',
+    tags: ['react', "anchor"],
     source: 'https://github.com/nicosup98/solana-web3-test',
     visit: 'https://solana-web3-test.vercel.app/',
-    id: 2,
+    id: 4,
   },
   {
     title: 'solana pay test',
@@ -33,7 +50,7 @@ export const projects = [
     tags: ['react'],
     source: 'https://github.com/nicosup98/solana-pay-test',
     visit: 'https://solana-pay-test.vercel.app/',
-    id: 3,
+    id: 5,
   }
 ];
 
@@ -42,6 +59,6 @@ export const TimeLineData = [
   { year: 2019, text: 'go to full stack with java and angular', },
   { year: 2020, text: 'learn new things like go, python, elixir, etc', },
   { year: 2021, text: 'start working and learning firebase', },
-  { year: 2022, text: 'learning rust to make backend apps and other stuff', },
+  { year: 2022, text: 'learning rust and go to make backend api and other stuff', },
 
 ];

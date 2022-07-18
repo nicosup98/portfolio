@@ -7,6 +7,9 @@ const Header = () => (
   <Container>
     <Div2>
       <li>
+        <Link href="#experience"><NavLink>Experience</NavLink></Link>
+      </li>
+      <li>
         <Link href="#projects">
           <NavLink>Projects</NavLink>
         </Link>

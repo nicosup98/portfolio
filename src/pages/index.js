@@ -12,15 +12,15 @@ const Home = () => {
   return (
     <Layout>
       <Section grid>
-        <Hero />
         <BackgrounAnimationLayout>
           <BackgroundAnimation />
+          <Hero />
         </BackgrounAnimationLayout>
       </Section>
+      <Acomplishments />
       <Projects />
       <Technologies />
       <Timeline />
-      <Acomplishments />
     </Layout>
   );
 };
