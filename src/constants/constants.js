@@ -35,13 +35,22 @@ export const projects = [
     id: 3,
   },
   {
+    title: "url shortner",
+    description: "a simple app to short an url",
+    image: "images/screencapture-nicosup98-url-shortener-deno-dev.png",
+    tags: ["fresh","deno","twind"],
+    source:"https://github.com/nicosup98/url-shortner",
+    visit: "https://nicosup98-url-shortener.deno.dev/",
+    id: 4
+  },
+  {
     title: 'solana anchor test',
     description: "a simple app to test anchor and solana web 3",
     image:'images/screencapture-solana-web3-test.png',
     tags: ['react', "anchor"],
     source: 'https://github.com/nicosup98/solana-web3-test',
     visit: 'https://solana-web3-test.vercel.app/',
-    id: 4,
+    id: 5,
   },
   {
     title: 'solana pay test',
@@ -50,7 +59,7 @@ export const projects = [
     tags: ['react'],
     source: 'https://github.com/nicosup98/solana-pay-test',
     visit: 'https://solana-pay-test.vercel.app/',
-    id: 5,
+    id: 6,
   }
 ];
 
