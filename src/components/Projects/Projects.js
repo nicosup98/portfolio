@@ -9,7 +9,7 @@ const Projects = () => (
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
-      {projects.map((p, i) => {
+      {projects.filter(p=> !p.hidden).map((p, i) => {
         return (
           <BlogCard key={i}>
            { p.image && <Img src={p.image} />}
