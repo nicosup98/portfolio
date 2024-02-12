@@ -14,6 +14,7 @@ export const projects = [
     image:"images/screencapture-weather-app.png",
     tags:["svelte","tailwind"],
     source: "https://github.com/nicosup98/weather-app",
+    hidden:true
     visit:"https://weather-app-eight-steel.vercel.app/",
     id:1
   },
@@ -23,6 +24,7 @@ export const projects = [
     image:"",
     tags:["go","fiber","fasthttp","redis"],
     source: "https://github.com/nicosup98/weather-backend",
+    hidden:true,
     id:2
   },
   {
@@ -41,6 +43,7 @@ export const projects = [
     tags: ["fresh","deno","twind"],
     source:"https://github.com/nicosup98/url-shortner",
     visit: "https://nicosup98-url-shortener.deno.dev/",
+    hidden:true,
     id: 4
   },
   {
@@ -69,5 +72,6 @@ export const TimeLineData = [
   { year: 2020, text: 'learn new things like go, python, elixir, etc', },
   { year: 2021, text: 'start working and learning firebase', },
   { year: 2022, text: 'learning rust and go to make backend api and other stuff', },
+  { year: 2023, text: 'continue with informatic engineering }
 
 ];
