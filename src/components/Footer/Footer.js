@@ -9,7 +9,7 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Chat</LinkTitle>
-          <LinkItem href="https://t.me/nicodamico">Telegram</LinkItem>
+          <LinkItem href="https://t.me/nicodamicodev">Telegram</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
