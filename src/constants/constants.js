@@ -63,6 +63,15 @@ export const projects = [
     source: 'https://github.com/nicosup98/solana-pay-test',
     visit: 'https://solana-pay-test.vercel.app/',
     id: 6,
+  },
+  {
+    title: 'angular todo app',
+    description: "a simple app to test signals in angular",
+    image:'',
+    tags: ['angular'],
+    source: 'https://github.com/nicosup98/todo-angular',
+    visit: 'https://todo-angular-tau-gules.vercel.app/',
+    id: 7,
   }
 ];
 
