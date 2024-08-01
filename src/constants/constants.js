@@ -14,7 +14,7 @@ export const projects = [
     image:"images/screencapture-weather-app.png",
     tags:["svelte","tailwind"],
     source: "https://github.com/nicosup98/weather-app",
-    hidden:true
+    hidden:true,
     visit:"https://weather-app-eight-steel.vercel.app/",
     id:1
   },
