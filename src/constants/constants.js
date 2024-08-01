@@ -72,6 +72,6 @@ export const TimeLineData = [
   { year: 2020, text: 'learn new things like go, python, elixir, etc', },
   { year: 2021, text: 'start working and learning firebase', },
   { year: 2022, text: 'learning rust and go to make backend api and other stuff', },
-  { year: 2023, text: 'continue with informatic engineering }
+  { year: 2023, text: 'continue with informatic engineering' }
 
 ];
